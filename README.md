@@ -8,11 +8,10 @@ npm install @dudadev/prettier-config
 
 ## Usage
 
-In `package.json`:
+In your Prettier config file:
 
 ```
-{
-  // ...
-  "prettier": "@dudadev/prettier-config"
-}
+module.exports = {
+    ...require('@dudadev/prettier-config'),
+};
 ```
